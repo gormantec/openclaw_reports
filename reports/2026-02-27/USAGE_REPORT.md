@@ -8,30 +8,26 @@ This report provides an overview of the Gemini LLM API usage for the Gorman Tech
 
 | Metric                                       | Value       | Date       |
 | :------------------------------------------- | :---------- | :--------- |
-| Paid Tier Generate Content Input Tokens      | 55,731,612  | 2026-02-26 |
-| Total API Requests (2026-02-27 UTC, partial) | 132         | 2026-02-27 |
-| Total API Requests (2026-02-26 UTC)        | 258         | 2026-02-26 |
+| Paid Tier Generate Content Input Tokens      | 58,299,446  | 2026-02-26 |
+| Total API Requests (2026-02-27 UTC, partial) | 151         | 2026-02-27 |
+| Total API Requests (2026-02-26 UTC)        | 241         | 2026-02-26 |
 
-**Note:**
 *   No data was available for "Free Tier Generate Content Input Tokens" or "Free Tier Generate Content Requests".
-*   An error occurred when fetching "Paid Tier Generate Content Requests": `5 NOT_FOUND: Cannot find metric(s) that match type = "generativelanguage.googleapis.com/quota/generate_content_paid_tier_requests/usage".` This may indicate the metric is new or temporarily unavailable.
 
 ## Hourly API Requests (Last 24 Hours)
 
 ```mermaid
 xychart
-    title "Sales Revenue"
-    x-axis [jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec]
-    y-axis "Revenue (in $)" 4000 --> 11000
-    line [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
-
+    title "Hourly API Requests (2026-02-27 UTC)"
+    x-axis [H00, H01, H02, H03]
+    y-axis "Requests"
+    bar [27, 35, 32, 57]
 ```
 
 ```mermaid
 xychart
-    title "Sales Revenue"
-    x-axis [jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec]
-    y-axis "Revenue (in $)" 4000 --> 11000
-    bar [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
-
+    title "Hourly API Requests (2026-02-26 UTC)"
+    x-axis [H09, H10, H11, H12, H13, H14, H15, H16, H17, H18, H19, H20, H21, H22, H23]
+    y-axis "Requests"
+    bar [36, 70, 7, 6, 6, 6, 4, 4, 6, 4, 4, 4, 23, 26, 35]
 ```
